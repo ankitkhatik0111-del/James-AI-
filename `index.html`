@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JAMES AI by Ankit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{background:#000;color:#00ffcc;font-family:Arial;text-align:center;padding:50px}
+h1{font-size:40px}
+button{padding:15px 30px;font-size:18px;background:#00ffcc;border:none;border-radius:10px}
+</style>
+</head>
+<body>
+<h1>JAMES AI</h1>
+<p>My first AI project by Ankit Khatik</p>
+<button onclick="talk()">Talk to JAMES</button>
+<p id="reply"></p>
+<script>
+function talk(){
+document.getElementById('reply').innerText = "Hello Ankit! I am JAMES AI. I am ready!";
+}
+</script>
+</body>
+</html>
